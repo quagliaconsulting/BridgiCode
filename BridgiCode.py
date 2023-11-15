@@ -7,7 +7,7 @@ assistantid = 'asst_bLywg5QHHveOLBgE9eBsGmzM'
 
 # Streamlit UI
 st.title('BridgiCode')
-user_input = st.text_input("Enter your message:")
+user_input = st.text_input("Describe the medical procedures:")
 
 # Function to interact with OpenAI using threads and runs
 def ask_gpt(question):
