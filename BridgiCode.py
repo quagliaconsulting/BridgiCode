@@ -14,7 +14,7 @@ def ask_gpt(question):
     try:
         # Create a new thread with initial message
         thread = client.beta.threads.create(
-            messages=[
+            messages=[f
                 {"role": "user", "content": question}
             ]
         )
